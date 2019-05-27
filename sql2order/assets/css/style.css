@@ -1,0 +1,136 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,700);
+
+body {
+	padding-top: 0px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  background: #F4F3F2;
+}
+
+.p{
+  font-size: 12px;
+  margin-top: 5px;
+  word-wrap: break-word;
+}
+
+.khung{
+  padding-top:100px;
+  width: 600px;
+}
+
+.thongbao{
+  padding-top: 40px;
+}
+
+@media screen and(min-width: 768px) {
+	.modal: before{
+        display:inline-block;
+        vertical-align:middle;
+        content:" ";
+        height:100%;
+    }
+}
+
+.dropdown-menu{
+  -webkit-box-shadow: none;
+  box-shadow:none;
+}
+
+.modal-dialog {
+    display:inline-block;
+    text-align:left;
+    vertical-align:middle;
+}
+
+.navbar, .dropdown-menu{
+  background: #fff;
+  border: none;
+}
+
+h4{
+  font-weight: 600;
+}
+
+@media screen and (max-width: 770px) {
+  .right{
+    float:left;
+    width: 100%;
+  }
+}
+
+.container h4{
+  margin-top:70px;
+  margin-bottom:30px;
+}
+
+button{
+  margin-top: 6px;
+}
+
+.right {
+  float: right;
+  border-bottom: 2px solid #0a5971;
+}
+
+.btn-info {
+  color: #fff;
+  background-color: #19b4e2;
+  border-color: #19b4e2;
+  font-size:13px;
+  font-weight:600;
+}
+
+.main{
+  margin-top: 60px;
+}
+
+hr{
+  width: 15%;
+  color: #fff;
+}
+
+.form-group{
+  margin-bottom: 15px;
+}
+
+label{
+  margin-bottom: 15px;
+}
+
+/* FORM LOGIN */
+.main-login{
+  background-color: #fff;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+  border-radius: 2px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.main-center{
+  margin-top: 30px;
+  margin: 0 auto;
+  max-width: 330px;
+  padding: 40px 40px;
+}
+
+.login-button{
+  margin-top: 5px;
+}
+
+.login-register{
+  font-size: 11px;
+  text-align: center;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #333;
+}
+.bg-4 { 
+    background-color: #2f2f2f; /* Black Gray */
+    color: #fff;
+    margin-top: 334px;
+  }
